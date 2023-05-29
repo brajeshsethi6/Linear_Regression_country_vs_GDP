@@ -1,25 +1,3 @@
-# import pandas as pd
-# import matplotlib.pyplot as plt
-
-# # Load the CSV file into a Pandas DataFrame
-# data = pd.read_csv('countries.csv')
-
-# # Filter the DataFrame to only include data for Africa
-# df_africa = data[data['Continent'] == 'Africa']
-
-# # Sort the data by Population in ascending order
-# df_africa = df_africa.sort_values('Population')
-
-# # Create a scatter plot
-# plt.scatter(df_africa['Population'], df_africa['IMF_GDP'],s=5)
-
-# # Set the axis labels and title
-# plt.xlabel('Population')
-# plt.ylabel('IMF_GDP')
-# plt.title('Countries in Africa')
-
-# # Show the plot
-# plt.show()
 import pandas as pd
 import matplotlib.pyplot as plt
 
